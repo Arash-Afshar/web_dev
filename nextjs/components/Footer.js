@@ -2,10 +2,9 @@ import { Typography, Grid } from '@material-ui/core';
 import MuiLink from '@material-ui/core/Link';
 import { makeStyles } from '@material-ui/core/styles';
 
-
 const useStyles = makeStyles(theme => ({
   footer: {
-    backgroundColor: theme.palette.primary.main,
+    background: 'linear-gradient(125deg, #354AA4 5%, #52319F 50%, #8E24AA 100%)',
     height: "70px",
     marginTop: 70,
   },
