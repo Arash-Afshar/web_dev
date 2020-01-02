@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
+    <link rel="stylesheet" href="css/index.css">
+
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
@@ -18,8 +20,8 @@
     <header class="background-gradient header">
       <nav class="transparent z-depth-0">
         <div class="nav-wrapper">
-          <a href="#!" class="brand-logo black-text">
-            Logo
+          <a href="#!" class="brand-logo">
+            <img class="responsive-img logo" src="assets/logo_transparent.png">
           </a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons teal-text text-lighten-1">menu</i></a>
           <ul class="right hide-on-med-and-down">
@@ -37,10 +39,10 @@
       <div class="container header-body">
           <div class="row center-align">
             <div class="col s12" style="height: 50px;"></div>
-            <div class="col s12">
+            <div class="col s12 white-text">
               <h1>Short statement about your website</h1>
             </div>
-            <div class="col s8 offset-s2">
+            <div class="col s8 offset-s2 grey-text text-lighten-1">
               <p>
                 Small description about what you do. Maybe one or two lines max.
               </p>
@@ -48,24 +50,24 @@
           </div>
           <div class="row center-align">
             <div class="col s8 offset-s2">
-                Banner image
+                <img class="responsive-img banner"  src="assets/dragon.png">
             </div>
           </div>
       </div>
-      <div class="stripe"></div>
+      <div class="curve"></div>
     </header>
 
     <section id="section1" class="container scrollspy">
       <div class="row">
         <div class="col s12 m12 center-align">
-          <h2 class="section-header">Section 1</h2>
+          <h2 class="section-header purple-text text-darken-3">Section 1</h2>
         </div>
       </div>
 
       <div class="row">
         <div class="col s12 m6 solution-card">
-          <div class="card">
-            <div class="card-content">
+          <div class="card blue-grey darken-3">
+            <div class="card-content white-text">
               <span class="card-title">Focus area 1</span>
               <p>
                 Short description...
@@ -76,14 +78,14 @@
               </p>
             </div>
             <div class="card-action">
-              <a href="#" class="modal-trigger">Learn more...</a>
+              <a href="#" class="orange-text text-darken-1">Learn more...</a>
             </div>
           </div>
         </div>
 
         <div class="col s12 m6 solution-card">
-          <div class="card">
-            <div class="card-content">
+          <div class="card blue-grey darken-3">
+            <div class="card-content white-text">
               <span class="card-title">Focus area 2</span>
               <p>
                 Some description...
@@ -94,7 +96,7 @@
               </p>
             </div>
             <div class="card-action">
-              <a href="#" class="modal-trigger">Learn more...</a>
+              <a href="#" class="orange-text text-darken-1">Learn more...</a>
             </div>
           </div>
         </div>
@@ -102,8 +104,8 @@
 
       <div class="row">
         <div class="col s12 m6 solution-card">
-          <div class="card">
-            <div class="card-content">
+          <div class="card blue-grey darken-3">
+            <div class="card-content white-text">
               <span class="card-title">Focus area 3</span>
               <p>
                 Short description...
@@ -114,14 +116,14 @@
               </p>
             </div>
             <div class="card-action">
-              <a href="#" class="modal-trigger">Learn more...</a>
+              <a href="#" class="orange-text text-darken-1">Learn more...</a>
             </div>
           </div>
         </div>
 
         <div class="col s12 m6 solution-card">
-          <div class="card">
-            <div class="card-content">
+          <div class="card blue-grey darken-3">
+            <div class="card-content white-text">
               <span class="card-title">Focus area 4</span>
               <p>
                 Some description...
@@ -132,20 +134,25 @@
               </p>
             </div>
             <div class="card-action">
-              <a href="#" class="modal-trigger">Learn more...</a>
+              <a href="#" class="orange-text text-darken-1">Learn more...</a>
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <div class="parallax-container">
+      <div class="parallax"><img src="assets/background.png"></div>
+    </div>
+
     <section id="section2" class="container scrollspy">
       <div class="row center-align">
         <div class="col s12">
-          <h2 class="section-header">Contact us</h2>
+          <h2 class="section-header purple-text text-darken-3">Contact us</h2>
         </div>
         <form class="col s12" action="mailto:CHANGE_ME@CHANGE_ME.com" method="POST">
             <div class="row">
+
               <p class="s12">
                 Description...
               </p>
